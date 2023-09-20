@@ -1,0 +1,61 @@
+#icon__nav{
+    width: 30px;
+    height: 30px;
+    padding: 0 0 0 15%;
+}
+
+body{
+    background-color: #1B2430;
+}
+.imagem__carrossel{
+    max-height: 45vh;
+   min-width: 100vw;
+   width: auto;
+    height: auto;
+    
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-end ; 
+    margin-bottom: 2.5%;
+    flex-shrink: 1;
+}
+
+.botao button{
+    background-color: #51557E;
+    border-color: #51557E;
+    
+}
+
+
+.filmes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+
+
+.filmes__capas:hover{
+
+    opacity: 0.3; ;
+}
+
+.filmes__capas__imagens{
+    width: 162px;
+    height: 215px;
+    object-fit: cover;
+    
+}
