@@ -8,11 +8,60 @@ body{
     background-color: grey;
 }
 
-.filmes{
+        .custom-carousel {
+            
+            min-width: 100vw;
+            max-height: 50vh;  
+            overflow: hidden; 
+        }
+
+        
+        .custom-carousel .carousel-inner {
+            max-height: 100%;
+        }
+
+      
+        .custom-carousel .carousel-inner .carousel-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+       
+        .custom-carousel .carousel-inner img {
+            max-width: 100%;
+            height: auto;
+        }
+  
+  .item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 100px;
+  } 
+.conteudo{
+    display: flex;
+    flex-direction: column;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-end ; 
+    margin-bottom: 2.5%;
+    flex-shrink: 1;
+    
+}
+/* .botao button{ */
+    
+/* } */
+
+
+.filmes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

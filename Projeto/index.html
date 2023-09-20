@@ -15,12 +15,58 @@
         </nav>
     </header>
         <main>
+          <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> -->
+            <!-- <div class="carousel-inner"> -->
+              <!-- <div class="carousel-item active"> -->
+                <!-- <img src="assets/apocalypseheader.jpg" class="d-block w-100" alt="..."> -->
+              <!-- </div> -->
+              <!-- <div class="carousel-item"> -->
+                <!-- <img src="./assets/closeheader.jpg" class="d-block w-100" alt="..."> -->
+              <!-- </div> -->
+              <!-- <div class="carousel-item"> -->
+                <!-- <img src="./assets/lahaineheader.png" class="d-block w-100" alt="..."> -->
+              <!-- </div> -->
+                <!-- <div class="carousel-item"> -->
+                  <!-- <img src="./assets/Meearlheader.jpg" class="d-block w-100" alt="..."> -->
+              <!-- </div> -->
+          <!-- </div> -->
+          <div class="conteudo">
+            <div class="botao">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Adicionar
+            </button>
+            </div>
             <div class="filmes">  
                 <a class="filmes__capas" href="/"> <img class="filmes__capas__imagens" src="./assets/apocalipse.jpg" alt=""> </a>
                 <a class="filmes__capas" href="/"> <img class="filmes__capas__imagens" src="./assets/close.jpg" alt=""> </a>
                 <a class="filmes__capas" href="/"> <img class="filmes__capas__imagens" src="./assets/lahaine.png" alt=""> </a>
                 <a class="filmes__capas" href="/"> <img class="filmes__capas__imagens" src="./assets/meearl.jpg" alt=""> </a>     
             </div>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Adicionar</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nome do Filme</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="exemplo: filme123">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Insira a Capa do Filme</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
